@@ -1,9 +1,9 @@
-import express, {Request, response, Response} from 'express'
+import express, {Request, response, Response} from 'express';
 import {
     tanksPage,
     apartmentsRender,
     clubRender,
-    // scheduled,
+    scheduled,
     getMain,
     landingCreateOne,
     landingGetMany,
@@ -15,6 +15,7 @@ const router = express.Router()
 
 router.get('/', getMain)
 router.get('/agradecimientos', tanksPage)
+router.get('/torre3/', scheduled )
 
 /** Landing pages endpoints */
 router.get('/landing', landingGetMany)
