@@ -14,7 +14,7 @@ router.post('/landing', handlers_1.landingCreateOne);
 router.get('/agradecimientos', (req, res) => {
     res.render('home/agradecimientos');
 });
-router.get('/torre', (req, res) => {
+router.get('/torre3', (req, res) => {
     return res.render('schedule.ejs');
 });
 /** Leads endpoint */

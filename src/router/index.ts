@@ -24,7 +24,7 @@ router.get('/agradecimientos', (req: Request, res: Response) => {
     res.render('home/agradecimientos')
 })
 
-router.get('/agendado', (req: Request, res: Response) => {
+router.get('/torre3', (req: Request, res: Response) => {
     return res.render('scheduled')
 })
 
