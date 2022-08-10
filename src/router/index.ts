@@ -20,7 +20,7 @@ router.get('/torre3/', scheduled )
 /** Landing pages endpoints */
 router.get('/landing', landingGetMany)
 router.post('/landing', landingCreateOne)
-
+/** 
 router.get('/agradecimientos', (req: Request, res: Response) => {
     res.render('home/agradecimientos')
 })
@@ -28,7 +28,7 @@ router.get('/agradecimientos', (req: Request, res: Response) => {
 router.get('/torre3', (req: Request, res: Response) => {
     return res.render('scheduled')
 })
-
+*/
 /** Leads endpoint */
 router.get('/lead', leadGetMany)
 router.post('/lead', leadCreateOne)
