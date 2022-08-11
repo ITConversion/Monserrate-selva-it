@@ -74,3 +74,6 @@ export const apartmentsRender = (req: Request, res: Response) => {
 export const tanksPage = (req: Request, res: Response) => {
     return res.render('thanks')
 }
+export const scheduled = (req: Request, res: Response) => {
+    return res.render('scheduled')
+}
