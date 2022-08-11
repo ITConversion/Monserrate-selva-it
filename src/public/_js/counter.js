@@ -1,5 +1,5 @@
 (function() {
-    var deadline = '2022/08/13 08:00';
+    var deadline = '2022/08/12 18:00';
     function pad(num, size) {
         var s = "0" + num;
         return s.substr(s.length - size);

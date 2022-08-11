@@ -76,6 +76,25 @@
 .w-checkbox-input--inputType-custom.w--redirected-focus {
   box-shadow: 0px 0px 3px 1px #3898ec;
 }
+#dis-map, #dis-vid {
+	height: 0;width: 100%;
+	overflow: hidden;
+	padding-bottom:30%;
+	padding-top: 30px;
+	position: relative;}
+#dis-vid img {
+	height: auto;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;}
+#dis-vid iframe, #dis-vid object, #dis-vid embed, #dis-map embed, #dis-map object, #dis-map iframe{
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;}
+
 
 .menu {
   margin-right: 0px;
