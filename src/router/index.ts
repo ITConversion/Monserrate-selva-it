@@ -15,7 +15,7 @@ const router = express.Router()
 
 router.get('/', getMain)
 router.get('/agradecimientos', tanksPage)
-router.get('/torre3/', scheduled )
+router.get('/torre3/', getMain )
 
 /** Landing pages endpoints */
 router.get('/landing', landingGetMany)
