@@ -15,20 +15,20 @@ const router = express.Router()
 
 router.get('/', getMain)
 router.get('/agradecimientos', tanksPage)
-router.get('/torre3/', getMain )
+///router.get('/torre3/', getMain )
 
 /** Landing pages endpoints */
 router.get('/landing', landingGetMany)
 router.post('/landing', landingCreateOne)
-/** 
+
 router.get('/agradecimientos', (req: Request, res: Response) => {
     res.render('home/agradecimientos')
 })
 
-router.get('/torre3', (req: Request, res: Response) => {
-    return res.render('scheduled')
-})
-*/
+///router.get('/torre3', (req: Request, res: Response) => {
+///    return res.render('scheduled')
+///})
+
 /** Leads endpoint */
 router.get('/lead', leadGetMany)
 router.post('/lead', leadCreateOne)
