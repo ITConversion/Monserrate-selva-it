@@ -3345,6 +3345,10 @@
     text-align: center;
   }
 
+  .sala {
+    overflow: hidden;
+  }
+
   .image {
     width: 90%;
     margin-right: 0px;
@@ -4013,6 +4017,7 @@
   }
 
   .sala {
+    overflow: hidden;
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -4045,7 +4050,7 @@
   }
 
   .body {
-    overflow: hidden;
+    overflow: visible;
   }
 
   .image-2 {
@@ -4630,6 +4635,10 @@
 
   .image-17 {
     margin-bottom: 40px;
+  }
+
+  .slider-ttres {
+    overflow: hidden;
   }
 
   .slider-3 {
