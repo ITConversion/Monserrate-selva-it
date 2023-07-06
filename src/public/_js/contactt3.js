@@ -38,7 +38,7 @@
       success: function (data) {
         console.log('response from webhook', data)
         $(Messages).html('<p>Enviado exitosamente.</p>')
-        window.location.href = "/agradecimientos/"
+        window.location.href = "/agradecimientos"
       }
     })
   }
