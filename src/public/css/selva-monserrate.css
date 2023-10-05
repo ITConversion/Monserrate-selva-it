@@ -347,16 +347,19 @@
 }
 
 .btn {
-  min-width: 320px;
+  min-width: 240px;
   color: #fff;
   text-align: center;
   cursor: pointer;
   background-color: #e39600;
   border: 1px solid #e39600;
   border-radius: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
   padding: 15px 20px;
   font-size: 22px;
   font-weight: 700;
+  line-height: 1em;
   text-decoration: none;
   transition: background-color .1s cubic-bezier(.55, .055, .675, .19);
   display: inline-block;
@@ -631,7 +634,7 @@
 
 .brand {
   flex: 0 auto;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 0;
   padding-right: 0;
   position: static;
@@ -644,7 +647,7 @@
   flex: 0 auto;
   justify-content: flex-end;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: -10px;
   padding-top: 0;
   padding-bottom: 0;
@@ -1808,7 +1811,7 @@
   margin-top: 0;
   padding-top: 0;
   display: flex;
-  position: absolute;
+  position: fixed;
   top: 0%;
   bottom: auto;
   left: 0%;
@@ -1984,6 +1987,7 @@
 }
 
 .subf1 {
+  width: auto;
   text-align: center;
   flex-direction: row;
   justify-content: center;
@@ -1991,7 +1995,7 @@
   display: block;
 }
 
-.subf2 {
+.subf5 {
   margin-left: 40px;
 }
 
@@ -2523,17 +2527,21 @@
 }
 
 .div-block-28 {
-  width: 86%;
+  width: 100%;
   text-align: center;
+  flex: 0 auto;
   justify-content: center;
   align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 28px;
-  display: flex;
+  line-height: 1em;
+  display: block;
 }
 
 .section-4 {
+  text-align: center;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -2641,7 +2649,7 @@
   background-image: url('../images/tour-360.png');
   background-position: 0 0;
   background-size: auto;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -2670,8 +2678,8 @@
 }
 
 .bold-text-5 {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  max-width: none;
+  padding: 10px 30px;
   font-size: 20px;
 }
 
@@ -3050,7 +3058,7 @@
     flex-direction: column;
   }
 
-  .subf2 {
+  .subf5 {
     margin-left: 0;
     margin-right: 0;
   }
@@ -3772,15 +3780,17 @@
 
   .btn {
     max-width: 257px;
-    min-width: 280px;
+    min-width: 225px;
     text-align: center;
-    padding-left: 0;
-    padding-right: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px 0;
+    font-size: 18px;
     line-height: 1.2em;
   }
 
   .btn:hover {
-    min-width: 280px;
+    min-width: 225px;
     background-color: #188e89;
     border-color: #188e89;
   }
@@ -4343,13 +4353,16 @@
   .footer-1 {
     width: 80%;
     text-align: center;
+    flex: 0 auto;
     align-self: center;
     display: block;
   }
 
-  .subf2 {
+  .subf5 {
     text-align: center;
+    object-fit: fill;
     display: block;
+    overflow: visible;
   }
 
   .back-certi {
@@ -4531,6 +4544,7 @@
 
   .section-6 {
     min-height: 30vh;
+    flex-direction: column;
   }
 
   .bold-text-5 {
@@ -4607,16 +4621,6 @@
   justify-self: center;
 }
 
-#w-node-e0a93cd9-0197-9832-b7c7-1727ce09b547-85ce11dc, #w-node-_9304fc82-61cb-0b45-a7e1-d237d59325fb-85ce11dc {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-}
-
-#w-node-b8e136c0-de02-6350-1f78-efc87e0c70f1-85ce11dc {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-  align-self: center;
-  justify-self: center;
-}
-
 #w-node-_9f25dd1e-5acf-59ef-bc33-b3f74e201ad0-85ce11dc, #w-node-_9f25dd1e-5acf-59ef-bc33-b3f74e201ad3-85ce11dc {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
@@ -4643,11 +4647,6 @@
 
 #w-node-_140e905c-0634-8bd7-00c0-e291c21ae8cf-85ce11dc {
   align-self: center;
-}
-
-#w-node-e2957e8d-0c92-676a-f1fe-ba2ed4e1dd70-85ce11dc {
-  align-self: center;
-  justify-self: center;
 }
 
 #w-node-_9a36e770-fbca-e76a-7d2d-1a78d963525e-85ce11dc {
